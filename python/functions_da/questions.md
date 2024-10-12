@@ -17,4 +17,13 @@ Instructions
     Expected Result : black-green-red-white-yellow 
 
      
-    Write a Python program that simulates a banking system. Create a function bank_account which takes a starting balance as input. Inside bank_account, define another function transaction that can either deposit or withdraw money from the account. The transaction function should accept two arguments: the operation ("deposit" or "withdraw") and the amount. The bank_account function should return the result of each transaction (updated balance). 
+    Write a Python program that simulates a banking system. Create a function bank_account which takes a starting balance as input. Inside bank_account, define another function transaction that can either deposit or withdraw money from the account. The transaction function should accept two arguments: the operation ("deposit" or "withdraw") and the amount. The bank_account function should return the result of each transaction (updated balance).
+    
+    
+    Write a function compres_string(s) that takes a string and returns its compressed version using the counts of repeated characters. For example, the string 'aaabcc' should return 'a3b2c1'. If the compressed string is not shorter than the original, return the original string. Expected Output: For 'aaabbccc', it should return 'a3b2c3'. For 'abcd', it should return 'abcd'.
+
+
+    Write a python function prime_factors(num) that takes an integer as input and returns a list of all its prime factors. (Hint: Break down a number into the product of prime numbers). Also, create another function is_prime(n) that checks whether a given number is prime or not. Expected Output: For example, prime_factors(84) should return [2, 2, 3 ,7].
+
+
+    Write a function longest_palindrome(s) that takes a string s and returns the longest palindrome substring within the string. Use a helper function to check if a substring is a palindrome.
