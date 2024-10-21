@@ -69,5 +69,4 @@ def main():
         else:
             print("invalid operation, enter ls for list")
 
-if __name__ == "__main__":
-    main()
+main()

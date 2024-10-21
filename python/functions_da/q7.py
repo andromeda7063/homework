@@ -20,7 +20,6 @@ def lps(x):
                 elif d == maxl:
                     olist.append(x[i:j])
 
-
     olist = list(set(olist))
 
     return olist

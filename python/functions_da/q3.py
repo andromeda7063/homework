@@ -10,6 +10,5 @@ def solution(st):
 
     return outstr[0:len(outstr)-1]
 
-
 a = input()
 print(solution(a))

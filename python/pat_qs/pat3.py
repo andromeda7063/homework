@@ -1,4 +1,4 @@
-# given string print longest palinndromic substring
+# given string print longest palindromic substring
 # if more than one longest, return list with all
 
 def ispal(st):
@@ -20,7 +20,6 @@ def lps(x):
 
                 elif d == maxl:
                     olist.append(x[i:j])
-
 
     olist = list(set(olist))
 
