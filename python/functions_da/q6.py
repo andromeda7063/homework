@@ -17,9 +17,9 @@ def primeFactors(k):
     red = k
     for i in range(2, k+1):
         if prime(i):
-            count = 0
+            count = 1
 
-            while red % i**count == 0:
+            while red % i == 0:
                     outlist.append(i)
                     red /= i
                     count += 1
@@ -37,4 +37,5 @@ else:
     b = primeFactors(a)
     for i in b:
         print(i, end=" ")
+    print()
 
