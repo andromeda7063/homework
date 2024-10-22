@@ -5,16 +5,16 @@ def strength(passwd):
     stcount = 0
 
     if len(passwd) > 8:
-        if any(i.isupper() for i in  passwd):
+        if any(i.isupper() for i in passwd):
             stcount += 1
 
-        if any(i.islower() for i in  passwd):
+        if any(i.islower() for i in passwd):
             stcount += 1
 
-        if any(i in spc for i in  passwd):
+        if any(i in spc for i in passwd):
             stcount += 1
         
-        if any(i.isnumeric() for i in  passwd):
+        if any(i.isnumeric() for i in passwd):
             stcount += 1
 
         return stcount
