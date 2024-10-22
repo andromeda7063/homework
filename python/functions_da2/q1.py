@@ -10,4 +10,4 @@ def vowCount(st):
     return count
 
 a = input()
-print(f"no of vowels in {a} is {vowCount(a)}")
+print("no of vowels in", a, "is", vowCount(a))
