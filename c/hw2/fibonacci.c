@@ -1,3 +1,5 @@
+// print the nth fibonacci number
+
 #include <stdio.h>
 
 void main() {
